@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+data/
+output/
+logs/
+
+# Machine-specific settings and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.db
+*.sqlite3
+.pytest_cache/
+# Historical local-only session inventory
+/FILES.md
